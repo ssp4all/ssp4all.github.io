@@ -1122,20 +1122,23 @@ figure.effect-bubba:hover p {
 /* Skills */
 /* ------------------------------------------------------ */
 #skills .card {
-            background: #D81B60;
+            background: #aa220a;
             /*skills title*/
         }
 
         #skills .card .skills-title {
             /*skills title*/
-            margin: 15px 0;
+			margin: 15px 0;
+			font-weight: bold;
         }
 
-        #skills .card .skills-title h6 {
+        #skills .card .skills-title h2 {
             /*title style*/
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
-        }
+			font-weight: bold;
+			font: 14px;
+		}
 
         #skills .card .row.no-gutters {
             /*row gutter remove*/
@@ -1151,7 +1154,7 @@ figure.effect-bubba:hover p {
             margin-top: 45px;
             width: 100%;
             padding: 0 0;
-            background: #ca195a;
+            background: #aa220a;
             height: 4px;
             -webkit-transition: 0.4s linear;
             transition: 0.4s linear;
