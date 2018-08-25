@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style>
+        /*-------------------------------------------------------------------------------
+ SKILLS SECTION
+-------------------------------------------------------------------------------*/
+        /*skills section*/
+        #skills .card {
+            background: #D81B60;
+            /*skills title*/
+        }
+
+        #skills .card .skills-title {
+            /*skills title*/
+            margin: 15px 0;
+        }
+
+        #skills .card .skills-title h6 {
+            /*title style*/
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+        }
+
+        #skills .card .row.no-gutters {
+            /*row gutter remove*/
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        #skills .card .skillbar {
+            /*whole bar*/
+            position: relative;
+            display: block;
+            margin-bottom: 17px;
+            margin-top: 45px;
+            width: 100%;
+            padding: 0 0;
+            background: #ca195a;
+            height: 4px;
+            -webkit-transition: 0.4s linear;
+            transition: 0.4s linear;
+            -webkit-transition-property: width, background-color;
+            transition-property: width, background-color;
+        }
+
+        #skills .card .skillbar .skillbar-title {
+            /*skill bar title*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 1em;
+        }
+
+        #skills .card .skillbar .skillbar-title span {
+            /*title*/
+            display: block;
+            padding: 3px 0;
+            margin-top: -25px;
+            line-height: 15px;
+            font-size: 1.1em;
+            color: #fff;
+        }
+
+        #skills .card .skillbar .skillbar-bar {
+            /*skill bar*/
+            height: 4px;
+            width: 0;
+            background: #fff;
+        }
+
+        #skills .card .skillbar .skill-bar-percent {
+            /*skill percentage text*/
+            display: none;
+            position: absolute;
+            right: 1px;
+            top: -20px;
+            font-size: .8em;
+            line-height: 15px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="skills" class="section">
+        <div class="container">
+            <!-- SECTION TITLE -->
+            <div class="section-title" data-sr-id="7" style="; visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                <h4 class="text-uppercase text-center"><img src="./Jasmine _lnishan_ Chen_files/mixer.png" alt="skills" data-sr-id="8"
+                        style="visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">Skills</h4>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="skills-card" class="card" data-sr-id="9" style="visibility: visible;  -webkit-transform: translateY(0) scale(1); opacity: 1;transform: translateY(0) scale(1); opacity: 1;-webkit-transition: box-shadow 0.25s ease 0s, -webkit-transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: box-shadow 0.25s ease 0s, transform 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 1.1s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; ">
+                        <!--
+                        <div class="card-content">
+                        </div>
+                        -->
+                        <div class="row no-gutters">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- FIRST SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Areas</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Algorithms</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="57"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Data Structures</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="58"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Parallel Computing</span></div>
+                                    <div class="skillbar-bar" style="width: 80%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="59"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Backend Development</span></div>
+                                    <div class="skillbar-bar" style="width: 80%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="60"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- FIFTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="75%">
+                                    <div class="skillbar-title"><span>Systems Programming</span></div>
+                                    <div class="skillbar-bar" style="width: 75%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="61"></div>
+                                    <div class="skill-bar-percent">75%</div>
+                                </div>
+                                <!-- SIXTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="75%">
+                                    <div class="skillbar-title"><span>Software Engineering</span></div>
+                                    <div class="skillbar-bar" style="width: 75%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="62"></div>
+                                    <div class="skill-bar-percent">75%</div>
+                                </div>
+                                <!-- SEVENTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Web Development</span></div>
+                                    <div class="skillbar-bar" style="width: 70%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="63"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- EIGHTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>System Administration</span></div>
+                                    <div class="skillbar-bar" style="width: 70%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="64"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- SECOND SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Languages</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>C++</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="65"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="85%">
+                                    <div class="skillbar-title"><span>C</span></div>
+                                    <div class="skillbar-bar" style="width: 85%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="66"></div>
+                                    <div class="skill-bar-percent">85%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="85%">
+                                    <div class="skillbar-title"><span>Python</span></div>
+                                    <div class="skillbar-bar" style="width: 85%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="67"></div>
+                                    <div class="skill-bar-percent">85%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Shell (Bash)</span></div>
+                                    <div class="skillbar-bar" style="width: 80%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="68"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- FIFTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="75%">
+                                    <div class="skillbar-title"><span>Web Frontend (HTML/CSS/JS)</span></div>
+                                    <div class="skillbar-bar" style="width: 75%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="69"></div>
+                                    <div class="skill-bar-percent">75%</div>
+                                </div>
+                                <!-- SIXTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Web Backend (PHP/MySQL)</span></div>
+                                    <div class="skillbar-bar" style="width: 70%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="70"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                                <!-- SEVENTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="70%">
+                                    <div class="skillbar-title"><span>Visual Basic</span></div>
+                                    <div class="skillbar-bar" style="width: 70%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="71"></div>
+                                    <div class="skill-bar-percent">70%</div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <!-- THIRD SKILL SECTION -->
+                                <div class="skills-title">
+                                    <h6 class="text-center">Software</h6>
+                                </div>
+                                <!-- FIRST SKILL BAR -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Windows &amp; Cygwin</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="72"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- SECOND SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>macOS (OSX)</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="73"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- THIRD SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Linux</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="74"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- FOURTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Git</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="75"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- FIFTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Vim</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="76"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                                <!-- SIXTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Unix Utilities</span></div>
+                                    <div class="skillbar-bar" style="width: 80%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="77"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- SEVENTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="80%">
+                                    <div class="skillbar-title"><span>Notepad++</span></div>
+                                    <div class="skillbar-bar" style="width: 80%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="78"></div>
+                                    <div class="skill-bar-percent">80%</div>
+                                </div>
+                                <!-- EIGHTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="75%">
+                                    <div class="skillbar-title"><span>Visual Studio</span></div>
+                                    <div class="skillbar-bar" style="width: 75%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="79"></div>
+                                    <div class="skill-bar-percent">75%</div>
+                                </div>
+                                <!-- NINTH SKILL BAR  -->
+                                <div class="skillbar" data-percent="90%">
+                                    <div class="skillbar-title"><span>Microsoft Office</span></div>
+                                    <div class="skillbar-bar" style="width: 90%;; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s; "
+                                        data-sr-id="80"></div>
+                                    <div class="skill-bar-percent">90%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

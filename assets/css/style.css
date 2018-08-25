@@ -955,6 +955,8 @@ figure.effect-bubba img {
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
+	height: 100%;
+	width: 100%;
 }
 
 figure.effect-bubba:hover img {
@@ -994,7 +996,8 @@ figure.effect-bubba h2 {
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
-    color: #fff;
+	color: #ffffff;
+	font-weight: bold;
 }
 
 figure.effect-bubba p {
@@ -1004,6 +1007,8 @@ figure.effect-bubba p {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
+	font-weight: bold;
+
 }
 
 figure.effect-bubba:hover figcaption::before,
@@ -1113,3 +1118,79 @@ figure.effect-bubba:hover p {
 	}
 
 }
+/* ------------------------------------------------- */
+/* Skills */
+/* ------------------------------------------------------ */
+#skills .card {
+            background: #D81B60;
+            /*skills title*/
+        }
+
+        #skills .card .skills-title {
+            /*skills title*/
+            margin: 15px 0;
+        }
+
+        #skills .card .skills-title h6 {
+            /*title style*/
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+        }
+
+        #skills .card .row.no-gutters {
+            /*row gutter remove*/
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        #skills .card .skillbar {
+            /*whole bar*/
+            position: relative;
+            display: block;
+            margin-bottom: 17px;
+            margin-top: 45px;
+            width: 100%;
+            padding: 0 0;
+            background: #ca195a;
+            height: 4px;
+            -webkit-transition: 0.4s linear;
+            transition: 0.4s linear;
+            -webkit-transition-property: width, background-color;
+            transition-property: width, background-color;
+        }
+
+        #skills .card .skillbar .skillbar-title {
+            /*skill bar title*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 1em;
+        }
+
+        #skills .card .skillbar .skillbar-title span {
+            /*title*/
+            display: block;
+            padding: 3px 0;
+            margin-top: -25px;
+            line-height: 15px;
+            font-size: 1.1em;
+            color: #fff;
+        }
+
+        #skills .card .skillbar .skillbar-bar {
+            /*skill bar*/
+            height: 4px;
+            width: 0;
+            background: #fff;
+        }
+
+        #skills .card .skillbar .skill-bar-percent {
+            /*skill percentage text*/
+            display: none;
+            position: absolute;
+            right: 1px;
+            top: -20px;
+            font-size: .8em;
+            line-height: 15px;
+            color: #fff;
+        }
