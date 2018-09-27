@@ -20,22 +20,24 @@ img {
 }
 
 a {
-	color: #E7746F;
+	color: #f5efef;
+	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #999;
+	color: #f3f3f6;
+
 }
 
 /* ---------------------------------------------- /*
  * Rotating Text
 /* ---------------------------------------------- */
 #demo{
-	font-size: 2em;
-	color: #ccc;
+	font-size: 1.5em;
+	color: #ffe91e;
 	font-style: italic;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 /* ---------------------------------------------- /*
  * Transition elsements
@@ -402,9 +404,9 @@ textarea.form-control {
 
 .title-text{
     font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+    font-weight: bolder;
     font-style: italic;
-    font-size: 6em;
+    font-size: 4em;
     text-transform: none;
     letter-spacing: -1px;
 }

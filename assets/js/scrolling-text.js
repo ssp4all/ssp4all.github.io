@@ -13,6 +13,5 @@ function typeWriter() {
     {
         i=0;
         document.getElementById("demo").innerHTML = "";
-
     }
 }
