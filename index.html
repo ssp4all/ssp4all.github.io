@@ -27,12 +27,13 @@
 	<script src="assets/js/track.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
+	<script src="assets/js/scrolling-text.js"></script>
 	<script>
 		new WOW({ offset: 100, mobile: false }).init();
 	</script>
 </head>
 
-<body>
+<body onload="typeWriter()">
 
 	<!-- Preloader -->
 
@@ -57,6 +58,7 @@
 								</div>
 							</div>
 						</div>
+
 						<div class="row">
 							<div class="col-xs-12 text-center heading-pointer">
 							</div>
@@ -95,6 +97,9 @@
 						<a href="https://www.facebook.com/ssp4all" class="fa fa-facebook fa-stack-1x"></a>
 					</span>
 				</h2>
+			</div>
+			<div class="row">
+				<div id="demo"></div><!-- Rotating text  -->
 			</div>
 		</div>
 
