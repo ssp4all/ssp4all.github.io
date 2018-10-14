@@ -1,17 +1,35 @@
-// JS script for Rotating text
-var i = 0;
-var txt = 'Avid-Reader. Web-Developer. Deep-Learning-Enthusiast';
-var speed = 400;
-var len = txt.length;
-function typeWriter() {    
-    if (i < len) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-    if(i == len)
-    {
-        i=0;
-        document.getElementById("demo").innerHTML = "";
-    }
-}
+$(function () {
+    $(".typed").typed({
+        strings: ["Web-Developer.", "Software-developer.", "Deep-Learning-Enthusiast"],
+        // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+        stringsElement: null,
+        // typing speed
+        typeSpeed: 30,
+        // time before typing starts
+        startDelay: 1200,
+        // backspacing speed
+        backSpeed: 20,
+        // time before backspacing
+        backDelay: 500,
+        // loop
+        loop: true,
+        // false = infinite
+        loopCount: 5,
+        // show cursor
+        showCursor: false,
+        // character for cursor
+        cursorChar: "|",
+        // attribute to type (null == text)
+        attr: null,
+        // either html or text
+        contentType: 'html',
+        // call when done callback function
+        callback: function () { },
+        // starting callback function before each string
+        preStringTyped: function () { },
+        //callback for every typed string
+        onStringTyped: function () { },
+        // callback for reset
+        resetCallback: function () { }
+    });
+});

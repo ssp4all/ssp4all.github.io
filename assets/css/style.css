@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 
+/* ---------------------------------------------- /*
+ * Rotating Text
+/* ---------------------------------------------- */
+
+@import url(scrolling-text.css);
+
 /*!
  * Clean v2.0.0
  * Homepage: http://scripteden.com
@@ -30,15 +36,6 @@ a:hover {
 
 }
 
-/* ---------------------------------------------- /*
- * Rotating Text
-/* ---------------------------------------------- */
-#demo{
-	font-size: 1.5em;
-	color: #ffe91e;
-	font-style: italic;
-	/* font-weight: bold; */
-}
 /* ---------------------------------------------- /*
  * Transition elsements
 /* ---------------------------------------------- */
