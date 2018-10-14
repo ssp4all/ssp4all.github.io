@@ -27,13 +27,12 @@
 	<script src="assets/js/track.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/modernizr.custom.js"></script>
-	<script src="assets/js/scrolling-text.js"></script>
 	<script>
 		new WOW({ offset: 100, mobile: false }).init();
 	</script>
 </head>
 
-<body onload="typeWriter()">
+<body>
 
 	<!-- Preloader -->
 
@@ -54,15 +53,14 @@
 						<div class="row">
 							<div class="col-xs-12 text-center">
 								<h1 class="title-text"></h1>
+								
 								<div class="icons">
 								</div>
 							</div>
 						</div>
 
-						<div class="row">
-							<div class="col-xs-12 text-center heading-pointer">
-							</div>
-						</div>
+						
+
 					</div>
 				</div>
 			</div>
@@ -98,8 +96,10 @@
 					</span>
 				</h2>
 			</div>
-			<div class="row">
-				<div id="demo"></div><!-- Rotating text  -->
+			<div class="banner">
+				<div class="typed_wrap">
+					<h2> <span class="typed"></span></h2>
+				</div>
 			</div>
 		</div>
 
@@ -711,7 +711,9 @@
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/shader.js"></script>
 	<script src="assets/js/shaderadd.js"></script>
-
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+	<script src="assets/js/scrolling-text.js"></script>
 </body>
 
 </html>
