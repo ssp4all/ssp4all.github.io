@@ -569,34 +569,9 @@ img.rounded {
 
 
 /* ---------------------------------------------- /*
- * Skills
+ * 
 ----------------------------------------------
 
-.chart {
-    display: inline-block;
-    height: 140px;
-    margin: 50px 0;
-    position: relative;
-    text-align: center;
-    width: 140px;
-}
-.chart canvas {
-    left: 0;
-    position: absolute;
-    top: 0;
-}
-.percent {
-    display: inline-block;
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 140px;
-    z-index: 2;
-}
-.percent:after {
-    content: "%";
-    font-size: 50%;
-    margin-left: 0.1em;
-}
 
 /* ---------------------------------------------- /*
  * Contact
@@ -903,7 +878,7 @@ iframe#gform{
 	display: block;
 	min-height: auto;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: 0.3;
 }
 
 .grid figure figcaption {
@@ -963,12 +938,12 @@ iframe#gform{
 /*---------------*/
 
 figure.effect-bubba {
-	background: #9e5406;
+	background: silver;
 	height: 240px;
 }
 
 figure.effect-bubba img {
-	opacity: 0.7;
+	opacity: 0.3;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 	height: 100%;
@@ -1012,7 +987,7 @@ figure.effect-bubba h2 {
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
-	color: #ffffff;
+	color: #fff;
 	font-weight: bold;
 }
 
@@ -1040,6 +1015,9 @@ figure.effect-bubba:hover p {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+/*-----------------------*/
+/***** Projects *****/
+/*-----------------------*/
 
 /*-----------------------*/
 /***** Quote Rotator *****/
@@ -1088,7 +1066,7 @@ figure.effect-bubba:hover p {
 
 .cbp-qtprogress {
 	position: absolute;
-	background: #FF5252;
+	background: #e7d8d8;
 	height: 1px;
 	width: 0%;
 	top: 0;
