@@ -601,9 +601,16 @@ img.rounded {
 /* ---------------------------------------------- /*
  * Contact
 /* ---------------------------------------------- */
-
+#contact{
+	text-align: center;
+}
 .ajax-response {
 	text-align: center;
+}
+
+iframe#gform{
+	width: 80vw;
+    height: 50vh;
 }
 
 /* ---------------------------------------------- /*
