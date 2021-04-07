@@ -12,3 +12,5 @@ github: Start Bootstrap
 category: Web Development
 description: Automated the plagarism detection process using React, Flask and PostgreSQL. This tool will clone all GitHub repository the run MOSS (plagarism detection software by Stanford University) periodically. MOSS will return a 
 ---
+source 'https://rubygems.org'
+gem 'github-pages'
