@@ -4,8 +4,8 @@ baseurl:
 # Site settings
 title: Suraj Pawar
 email: spawar2@ncsu.edu
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+description: "Suraj Pawar is a Gradute student pursuing Master's in Computer Science NC State University, USA. He is interested in Software Engineering and Data Science. 
+			This site displays Suraj's projects and prior Software Engineering related experiences."
 
 # Team names, titles and social links
 people:
@@ -45,20 +45,19 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/ssp4all
   - title: facebook
-    url:
+    url: https://www.facebook.com/SSP4ALL/
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://stackoverflow.com/users/9543314/ssp4all
+  - title: linkedin 
+    url: https://www.linkedin.com/in/ssp4all/
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/ssp4all
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: USA
 
 # Build settings
 markdown: kramdown
