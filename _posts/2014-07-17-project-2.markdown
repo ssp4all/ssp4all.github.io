@@ -10,7 +10,6 @@ alt: image-alt
 project-date: Jan 2021
 github: Start Bootstrap
 category: Web Development
-description: Built a Progressive web application using React, Capacitor JS, TypeScript, AWS, and Amazon relational database.
-The android and website will enable users to track their journey, send live message and get upadate from service provider.
+description: Built a Progressive web application using React, Capacitor JS, TypeScript, AWS, and Amazon relational database.The android and website will enable users to track their journey, send live message and get upadate from service provider.
 
 ---
