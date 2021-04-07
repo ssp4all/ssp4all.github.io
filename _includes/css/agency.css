@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -341,6 +341,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 @media(min-width:768px) {
