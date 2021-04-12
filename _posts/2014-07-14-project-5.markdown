@@ -1,15 +1,28 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: Movie Recommendation System
+subtitle: Machine Learning
 layout: default
 modal-id: 5
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+date: 2019-07-18
+img: dreams.png
+thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: May 2019
+category: Automation
+github: https://github.com/ssp4all
+description: Implemented Collaborative Recommender system, Content-based recommender system, and Hybrid recommender system. Performed through testing to evaluate each model using Accuracy and Error Based Methods, DECISION SUPPORT METHODS, and RANKING BASED METHODS.
 ---
+<!-- ---
+title: Movie Recommendation System
+subtitle: Machine Learning
+layout: default
+modal-id: 5
+date: 2021-07-14
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: April 2021
+category:  Machine-Learning
+github: https://github.com/ssp4all
+description: Implemented Collaborative Recommender system, Content-based recommender system, and Hybrid recommender system. Performed through testing to evaluate each model using Accuracy and Error Based Methods, DECISION SUPPORT METHODS, and RANKING BASED METHODS.
+--- -->

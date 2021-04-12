@@ -1,6 +1,6 @@
 ---
 title: Trip Maker
-subtitle: Progressive webapp
+subtitle: Progressive Web App
 layout: default
 modal-id: 2
 date: 2021-01-17
@@ -8,7 +8,7 @@ img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
 project-date: Jan 2021
-github: Start Bootstrap
+github: https://github.com/ssp4all
 category: Web Development
 description: Built a Progressive web application using React, Capacitor JS, TypeScript, AWS, and Amazon relational database.The android and website will enable users to track their journey, send live message and get upadate from service provider.
 

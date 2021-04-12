@@ -1,15 +1,14 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title:  Neural Network for Digits Recognition
+subtitle: Keras - Neural Network
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date: 2019-07-18
+img: dreams.png
+thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+project-date: April 2021
+category: Automation
+github: https://github.com/ssp4all
+description: Implemented multi-layer Neural Network using Keras library. Used Grid CV for hyper-parameter tunning as well as to improve accuracy. 
 ---
