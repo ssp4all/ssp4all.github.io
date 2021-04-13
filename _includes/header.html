@@ -46,19 +46,20 @@
 <header>
   <div class="container">
     <div class="intro-text">
-      <div class="intro-lead-in">Hi there👋, My name is</div>
-      <div class="intro-heading">Suraj Pawar</div>
-      
+      <div>
+        <div class="intro-lead-in">Hi there👋, My name is</div>
+        <div class="intro-heading">Suraj Pawar</div>
+      </div>
       <div class="social-links">
-          <ul class="list-inline social-buttons">
-            {% for network in site.social %}
-            <li>
-              <a href="{{ network.url }}" target="_blank"
-                ><i class="fa fa-{{ network.title }}"></i
-              ></a>
-            </li>
-            {% endfor %}
-          </ul>
+        <ul class="list-inline social-buttons">
+          {% for network in site.social %}
+          <li>
+            <a href="{{ network.url }}" target="_blank"
+              ><i class="fa fa-{{ network.title }}"></i
+            ></a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
 
       <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>

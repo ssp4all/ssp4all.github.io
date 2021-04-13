@@ -127,6 +127,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    width: auto;
+    max-width: 200px;
     padding: 20px 40px;
     border-color: #fe8d36;
     border-radius: 3px;
@@ -290,8 +292,10 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
 }
 
 header .intro-text .intro-lead-in {
@@ -359,7 +363,7 @@ section h3.section-subheading {
 
 @media(min-width: 300px){ 
     header .intro-text {
-        margin-top: 100px;
+        padding-top: 200px;
     }
     .btn-xl {
         padding: 10px 20px;
