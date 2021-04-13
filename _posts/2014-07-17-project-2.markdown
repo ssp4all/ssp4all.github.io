@@ -4,8 +4,8 @@ subtitle: Progressive Web App
 layout: default
 modal-id: 2
 date: 2021-01-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: trip.png
+thumbnail: trip.png
 alt: image-alt
 project-date: Jan 2021
 github: https://github.com/ssp4all

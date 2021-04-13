@@ -4,11 +4,11 @@ subtitle: Automation tool
 layout: default
 modal-id: 1
 date: 2019-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: codemate.png
+thumbnail: codemate.png
 alt: image-alt
 project-date: May 2019
 category: Automation
-github: https://github.com/ssp4all
+github: https://github.com/ssp4all/stackoverflow-scrapper
 description: Built a tool to automate a debugging process which involves scraping StackOverflow website to display optimal solution to user query/program error on terminal/command-line. Technology stack used - Python, Bash, NLTK.
 ---

@@ -4,8 +4,8 @@ subtitle: An automation tool
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: github.png
+thumbnail: github.png
 alt: image-alt
 project-date: April 2014
 github: https://github.com/ssp4all

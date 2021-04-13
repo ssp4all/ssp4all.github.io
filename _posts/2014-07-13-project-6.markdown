@@ -4,11 +4,11 @@ subtitle: Keras - Neural Network
 layout: default
 modal-id: 6
 date: 2019-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+img: ann.png
+thumbnail: ann.png
 alt: image-alt
 project-date: April 2021
 category: Automation
-github: https://github.com/ssp4all
-description: Implemented multi-layer Neural Network using Keras library. Used Grid CV for hyper-parameter tunning as well as to improve accuracy. 
+github: https://github.com/ssp4all/machine-learning-for-business-applications/tree/master/ADBI/projects
+description: Implemented multi-layer Artificial Neural Network(ANN) using Keras library. Used GridSearchCV from scikit-learn for hyper-parameter tunning as well as to improve accuracy. 
 ---
