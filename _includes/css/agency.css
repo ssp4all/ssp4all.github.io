@@ -309,6 +309,12 @@ header .intro-text .intro-heading {
 header .intro-text .social-buttons{
     margin: 20px;
 }
+
+header .intro-text .social-buttons a{
+    font-size: 5vmin;
+}
+
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 200px;
@@ -778,6 +784,15 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+}
+
+header ul.social-buttons li a {
+    display: block;
+    width: 10vw;
+    height: 10vw;
+    max-width: 100px;
+    max-height: 100px;
+    line-height: min(10vw, 100px);
 }
 
 ul.social-buttons li a:hover,
