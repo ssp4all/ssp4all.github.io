@@ -281,15 +281,26 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('/img/header-bg2.jpeg');
+    /* background-image: url('/img/header-bg2.jpeg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     height: 100vh;
 }
+
+#headerVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
 
 header .intro-text {
     display: flex;
