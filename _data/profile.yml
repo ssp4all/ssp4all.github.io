@@ -1,0 +1,43 @@
+# Profile Information
+name: Suraj Pawar
+tagline: "Building software that makes a difference"
+photo: /assets/images/ssp.jpg
+
+# Social Links
+social:
+  - icon: twitter
+    url: https://twitter.com/ssp4all
+  - icon: github
+    url: https://github.com/ssp4all
+  - icon: linkedin
+    url: https://www.linkedin.com/in/ssp4all/
+  - icon: stack-overflow
+    url: https://stackoverflow.com/users/9543314/ssp4all
+
+# Timeline entries (most recent first)
+timeline:
+  - period: "2021 - Present"
+    logo: /img/about/splunk.jpg
+    title: "Software Engineer"
+    description: |
+      Working with Kubernetes, Golang, and AWS. 
+      
+  - period: "2020 - 2020"
+    logo: /img/about/murano.jpeg
+    title: "Software engineering intern"
+    description: |
+      Implemented Elastic, Logstash and Kibana (ELK) stack to enhance the search functionality. 
+
+  - period: "2019 - 2021"
+    logo: /img/about/nc-state.png
+    title: "Graduate Student at NC State University"
+    description: |
+      Pursued a Master's in Computer Science at [NC State University](https://www.ncsu.edu).
+      Focused on Software Engineering and Data Science.
+
+  - period: "2015 - 2019"
+    logo: /img/about/mumbai.jpeg
+    title: "Under graduate Student at University of Mumbai"
+    description: |
+      Pursued a Bachelor's at [Univeristy of Mumbai](http://www.mu.ac.in).
+      Focused on Software Engineering and Data Science.

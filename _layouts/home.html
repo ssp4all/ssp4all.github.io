@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Suraj Pawar</title>
+    <title>{{ site.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Suraj Pawar is a Gradute student pursuing Master's in Computer Science NC State University, USA.He is interested in Software Engineering and Data Science.This site displays Suraj's projects and prior Software Engineering related experiences.">
-    <link rel="canonical" href="http://localhost:4000/">
-    <link rel="icon" href="http://localhost:4000/img/web-icon.ico">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="icon" href="{{ site.url }}/img/web-icon.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
@@ -243,129 +243,63 @@
 <body>
     <!-- Profile Header -->
     <header class="profile-header">
-        <img src="/assets/images/ssp.jpg" alt="Suraj Pawar" class="profile-photo">
-        <h1 class="profile-name">Suraj Pawar</h1>
-        <p class="profile-tagline">Building software that makes a difference</p>
+        <img src="{{ site.data.profile.photo }}" alt="{{ site.data.profile.name }}" class="profile-photo">
+        <h1 class="profile-name">{{ site.data.profile.name }}</h1>
+        <p class="profile-tagline">{{ site.data.profile.tagline }}</p>
         <div class="social-links">
-            
-            <a href="https://twitter.com/ssp4all" title="twitter" target="_blank" rel="noopener">
-                
+            {% for social in site.data.profile.social %}
+            <a href="{{ social.url }}" title="{{ social.icon }}" target="_blank" rel="noopener">
+                {% if social.icon == 'twitter' %}
                 <i class="fab fa-twitter"></i>
-                
-            </a>
-            
-            <a href="https://github.com/ssp4all" title="github" target="_blank" rel="noopener">
-                
+                {% elsif social.icon == 'github' %}
                 <i class="fab fa-github"></i>
-                
-            </a>
-            
-            <a href="https://www.linkedin.com/in/ssp4all/" title="linkedin" target="_blank" rel="noopener">
-                
+                {% elsif social.icon == 'linkedin' %}
                 <i class="fab fa-linkedin-in"></i>
-                
-            </a>
-            
-            <a href="https://stackoverflow.com/users/9543314/ssp4all" title="stack-overflow" target="_blank" rel="noopener">
-                
+                {% elsif social.icon == 'stack-overflow' %}
                 <i class="fab fa-stack-overflow"></i>
-                
+                {% elsif social.icon == 'envelope' %}
+                <i class="fas fa-envelope"></i>
+                {% elsif social.icon == 'rss' %}
+                <i class="fas fa-rss"></i>
+                {% else %}
+                <i class="fas fa-link"></i>
+                {% endif %}
             </a>
-            
+            {% endfor %}
         </div>
     </header>
 
     <!-- Timeline -->
     <section class="timeline">
-        
+        {% for entry in site.data.profile.timeline %}
         <article class="timeline-entry">
-            <span class="timeline-period">2021 - Present</span>
+            <span class="timeline-period">{{ entry.period }}</span>
             <span class="timeline-dot"></span>
-            
-            <img src="/img/about/splunk.jpg" alt="" class="timeline-logo">
-            
+            {% if entry.logo %}
+            <img src="{{ entry.logo }}" alt="" class="timeline-logo">
+            {% endif %}
             <div class="timeline-content">
-                <p>Working with Kubernetes, Golang, and AWS.</p>
-
+                {{ entry.description | markdownify }}
             </div>
         </article>
-        
-        <article class="timeline-entry">
-            <span class="timeline-period">2020 - 2020</span>
-            <span class="timeline-dot"></span>
-            
-            <img src="/img/about/murano.jpeg" alt="" class="timeline-logo">
-            
-            <div class="timeline-content">
-                <p>Implemented Elastic, Logstash and Kibana (ELK) stack to enhance the search functionality.</p>
-
-            </div>
-        </article>
-        
-        <article class="timeline-entry">
-            <span class="timeline-period">2019 - 2021</span>
-            <span class="timeline-dot"></span>
-            
-            <img src="/img/about/nc-state.png" alt="" class="timeline-logo">
-            
-            <div class="timeline-content">
-                <p>Pursued a Master’s in Computer Science at <a href="https://www.ncsu.edu">NC State University</a>.
-Focused on Software Engineering and Data Science.</p>
-
-            </div>
-        </article>
-        
-        <article class="timeline-entry">
-            <span class="timeline-period">2015 - 2019</span>
-            <span class="timeline-dot"></span>
-            
-            <img src="/img/about/mumbai.jpeg" alt="" class="timeline-logo">
-            
-            <div class="timeline-content">
-                <p>Pursued a Bachelor’s at <a href="http://www.mu.ac.in">Univeristy of Mumbai</a>.
-Focused on Software Engineering and Data Science.</p>
-
-            </div>
-        </article>
-        
+        {% endfor %}
     </section>
 
     <!-- Blog Posts -->
-    
+    {% if site.posts.size > 0 %}
     <section class="blog-section">
         <h2>Recent Posts</h2>
         <ul class="blog-list">
-            
+            {% for post in site.posts limit:5 %}
             <li>
-                <span class="blog-date">Jan 2021</span>
-                <a href="/web%20development/2021/01/17/project-2/" class="blog-link">Trip Maker</a>
+                <span class="blog-date">{{ post.date | date: "%b %Y" }}</span>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="blog-link">{{ post.title }}</a>
             </li>
-            
-            <li>
-                <span class="blog-date">Jul 2019</span>
-                <a href="/automation/2019/07/18/project-1/" class="blog-link">StackOverflow Scrapper</a>
-            </li>
-            
-            <li>
-                <span class="blog-date">Jul 2019</span>
-                <a href="/automation/2019/07/18/project-5/" class="blog-link">Movie Recommendation System</a>
-            </li>
-            
-            <li>
-                <span class="blog-date">Jul 2019</span>
-                <a href="/automation/2019/07/18/project-6/" class="blog-link">Neural Network for Digits Recognition</a>
-            </li>
-            
-            <li>
-                <span class="blog-date">Jul 2014</span>
-                <a href="/web%20development/2014/07/16/project-3/" class="blog-link">GitHub-Plagiarism-Detector</a>
-            </li>
-            
+            {% endfor %}
         </ul>
     </section>
-    
+    {% endif %}
 
-    
-
+    {{ content }}
 </body>
 </html>
