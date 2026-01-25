@@ -4,9 +4,13 @@ baseurl:
 # Site settings
 title: Suraj Pawar
 email: suraj.pawar1898@gmail.com
-description: "Suraj Pawar is a Gradute student pursuing Master's in Computer Science NC State University, USA.\
-              He is interested in Software Engineering and Data Science.\
-              This site displays Suraj's projects and prior Software Engineering related experiences."
+description: >-
+  Suraj Pawar is a Software Engineer with over five years of experience building scalable,
+  production-grade systems. Currently at Splunk, he specializes in cloud-native development
+  with Kubernetes, Golang, and AWS. His expertise spans distributed systems, infrastructure
+  automation, and LLM-powered applications. With a Master's in Computer Science from NC State
+  University, Suraj combines strong academic foundations with hands-on engineering to deliver
+  impactful software solutions.
 
 # Team names, titles and social links
 people:
